@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.25em;
+    font-weight: 500;
+
+}
+body{
+    font-family: monospace;
+    color: #333;}
+    
+    .item{
+        margin: 5px;
+        background-color: lightseagreen;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .container{
+        display: flex;
+        max-width: 400px;
+        margin: 0 auto;
+        border: 1px solid lightskyblue;
+    }
+.flex-start{
+    justify-content: flex-start;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.center{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-aruond{
+    justify-content: space-around;
+}
+.flex{
+    flex:1;
+}
+.column{
+    flex-direction: column;
+    min-height: 200px;
+}
