@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+}
+.janela1{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+.janela2{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+.janela3{
+    background-color:green;
+    height: 200px;
+    width: 200px;
+}
+@media screen and (max-width: 600px){
+     .janela1{
+     background-color: salmon ;
+     height: 150px;
+     width: 150px;
+
+     }
+body{
+ background-color: blueviolet;
+}

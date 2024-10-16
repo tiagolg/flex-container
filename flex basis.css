@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.25em;
+    font-weight: 500;
+
+}
+body{
+    font-family: monospace;
+    color: #333;}
+    
+    .item{
+        flex: 1;
+        margin: 5px;
+        background-color: lightseagreen;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .container{
+        display: flex;
+        max-width: 400px;
+        margin: 0 auto;
+        border: 1px solid lightskyblue;
+    }
+    .basis-auto{
+        flex-grow: 1;
+        flex-basis: auto;
+    }
+    .basis-auto-grow-2{
+        flex-grow: 2;
+        flex-basis: auto;
+    }
+    .basis-auto-widht{
+        flex-grow: 1;
+        flex-basis: auto;
+        width: 60px;
+    }
+    .basis-auto-grow-0{
+        flex-basis: auto;
+    }
+    .overlay{
+        margin-top: 10px;
+    }
